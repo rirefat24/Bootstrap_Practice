@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Practice</title>
+    <title>Bootstrap Booting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Hello Bootstrap.</h1>
+    <h1>Hello from Bootstrap.</h1>
+    <h1>Button Sample</h1>
+    <button class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button class="btn btn-warning">Warning</button>
+    <br><br>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+    </div>
+    <h1>Colors</h1>
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary">.text-secondary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-danger">Danger Zone</p>
+    <p class="text-warning">.text-warning</p>
+    <p class="text-info">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-body">.text-body</p>
+    <p class="text-muted">.text-muted</p>
+    <p class="text-white bg-dark">.text-white</p>
+    <p class="text-black-50">.text-black-50</p>
+    <p class="text-white-50 bg-dark">.text-white-50</p>
+
+    <h1>Backgrounds</h1>
+    <div class="bg-primary">
+        <h1>My news</h1>
+        <p>I'm learning bootstrap</p>
+    </div>
+    <div class="bg-info">
+        <h1>My Hobby</h1>
+        <p>My hobby is to travel the whole world.</p>
+    </div>
+
+    <div class="bg-gradient-danger">
+        <h1>Background Gradient</h1>
+         <p>Gradient Background</p>
+    </div>
+    <h1>Picture</h1>
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="images/IMG_20180725_220745 (1).jpg" alt="">
+    <img class="img-fluid w-25  img-thumbnail" src="images/IMG_20150928_171415.jpg" alt="">
+    <img class="img-fluid w-25 rounded-circle" src="images/IMG_20181026_142559.jpg" alt=""><hr><hr><hr>
+
+    <h1>Cards</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="images/IMG_20150928_171415.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Download CV</a>
+        </div>
+      </div><br><br><br>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/IMG_20150928_171415.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/IMG_20180725_220745 (1).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/IMG_20181026_142559.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
 </body>
 </html>
